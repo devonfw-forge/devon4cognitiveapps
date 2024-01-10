@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "devon4cognitiveapps"
+version = "0.1.0"
+description = "A blueprint for Cognitive applications (using an LLM) based on Python and Langchain"
+authors = ["Iwan van der Kleijn <iwan-rochus.van-der-kleijn@capgemini.com>"]
+license = "Apache2"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
